@@ -1,0 +1,106 @@
+.restaurant{
+
+  width: 100%;
+  height: auto;
+  background-color: $bgColor;
+  padding-top: 100px;
+
+  & .restaurant__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & .restaurant-title{
+      font-family: $base-font;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0;
+      height: 30px;
+      width: 360px;
+      align-self: center;
+      margin-bottom: 50px;
+
+      & span{
+        color: $secondary;
+      }
+
+
+    }
+
+    & .rest-blocks{
+
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      & .rest-card{
+        height: 417px;
+        width: 361px;
+        border-radius: 53px 5px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+
+        & .rest-card-img{
+          margin-bottom: 22px;}
+        & .rest-card-title{
+          font-family: $base-font;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          margin-left:20px;
+          margin-bottom: 10px;
+
+
+        }
+        & .time-block{
+          display: flex;
+          flex-direction: row;
+          margin-left: 20px;
+
+
+          & .time-block-icon{
+            height: 20.059720993041992px;
+            width: 18.511165618896484px;
+            left: 1.74444580078125px;
+            top: 0.97015380859375px;
+            border-radius: 0;
+            margin-right: 10px;
+            margin-top: 5px;
+          }
+          & .time-p{
+            margin-right: 10px;
+            font-family: $base-font;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+
+          }
+          & .time-block-link{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 33px;
+            width: 79px;
+            background-color: $secondary;
+            color: #ffffff;
+            box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+            border-radius: 20px 20px 0px 20px;
+
+
+          }
+        }
+      }
+    }
+  }
+}

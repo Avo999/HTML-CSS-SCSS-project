@@ -1,0 +1,60 @@
+.saying{
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  .saying__container{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+     .saying-title{
+       height: 43px;
+       width: 481px;
+      color: $Primary;
+       font-family: $base-font;
+       font-size: 36px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 43px;
+       letter-spacing: 0.5px;
+       text-align: left;
+       align-self: center;
+       margin-bottom: 50px;
+      & span{
+          color: $secondary;
+       }
+
+
+     }
+    .saying-block{
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      .saying-img{
+        width: 434px;
+        height: 520px;
+        margin-right: 70px;
+      }
+      .client-says-right{
+        height: 500px;
+        width: 600px;
+        margin-top: 40px;
+
+          .saying-text{
+            height: 206px;
+            width: 573px;
+            color: $Primary;
+            font-family: $base-font;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 45px;
+            letter-spacing: 0.5px;
+            text-align: left;
+
+
+          }
+        }
+    }
+  }
+}

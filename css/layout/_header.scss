@@ -1,0 +1,170 @@
+.header{
+  width: 100%;
+  //height: 836px;
+  height: auto;
+  background-color: #efefef;
+  color: $Primary;
+
+  .header__container{
+
+
+    .nav{
+
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 109px;
+
+      .head-nav{
+        width: 750px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: $base-font;
+        li{
+          & .button{
+            width: 120px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            background-color: $secondary;
+            color: #ffffff;
+            &:hover{
+              background-color: #fff;
+              color: $secondary;
+              border: 2px solid $secondary;
+            }
+          }
+          a{
+            color: $Primary;
+            &:hover{
+          color: $secondary;
+         }
+          }
+        }
+      }
+    }
+    .header-content{
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+
+
+    .header-left{
+      width: 540px;
+      margin-top: 115px;
+
+      .header-title{
+        font-family: $base-font;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 78px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 23px;
+
+
+      }
+      .header-text{
+        font-family: $base-font;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 57px;
+      }
+      .button-header{
+        height: 50px;
+        width: 161px;
+        font-family: $base-font;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        background-color: $secondary;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        margin-right: 30px;
+      }
+      .header-link{
+        float: left;
+        height: 50px;
+        width: 135px;
+        line-height: 50px;
+        font-family: $base-font;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: underline;
+
+      }
+     }
+      .header-right{
+        width: 655px;
+        height: 681px;
+        position: relative;
+
+        .time-icon{
+          //width: 40px;
+          //width: calc(40/682*100%);
+          //height: calc(38/682*100%);
+          position: absolute;
+          margin-left: 245px;
+        }
+        .icon2{
+          //width: calc(40/682*100%);
+          //height: calc(38/682*100%);
+          margin-left: 529px;
+        }
+        .icon3{
+          //width: calc(91.63/682*100%);
+          //height: calc(169.32/682*100%);
+          position: absolute;
+          margin-top: 40px;
+          margin-left: 480px;
+        }
+        .icon4{
+          position: absolute;
+          margin-top: 119px;
+          margin-left: 106px;
+        }
+        .icon5{
+          margin-left: 480px;
+          margin-top: 250px;
+          position: absolute;
+        }
+        .scooter-guy{
+          width: 682px;
+          height: 681px;
+          //width: 100%;
+          //height: 100%;
+          //position: absolute;
+        }
+      }
+    }
+  }
+}
+
+
+.check-menu,
+.manu-label
+{
+  display: none;
+}
