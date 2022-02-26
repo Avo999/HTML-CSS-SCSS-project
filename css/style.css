@@ -7856,6 +7856,71 @@ ul {
   .header .header__container .header-content .header-right {
     margin: 0 auto;
   }
+
+  .stay {
+    margin-bottom: 100px;
+  }
+  .stay .stay__container {
+    flex-flow: row wrap;
+  }
+  .stay .stay__container .stay-img {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .stay .stay__container .stay-right-side {
+    margin: 0 auto;
+  }
+
+  .restaurant {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .restaurant .rest-blocks .rest-card {
+    margin: 0 auto;
+  }
+
+  .mobile {
+    margin-bottom: 100px;
+  }
+  .mobile .mobile__container {
+    flex-flow: row wrap;
+  }
+  .mobile .mobile__container .left-block-mob {
+    padding-left: 150px;
+    margin-bottom: 100px;
+  }
+  .mobile .mobile__container .right-block-mob {
+    margin: 0 auto;
+  }
+
+  .saying .saying__container .saying-block {
+    flex-flow: row wrap;
+  }
+  .saying .saying__container .saying-block .saying-img {
+    margin: 0 auto;
+  }
+  .saying .saying__container .saying-block .client-says-right {
+    margin: 0 auto;
+  }
+  .subscribe {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .subscribe .subscribe__container form {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .subscribe .subscribe__container form input {
+    margin-right: auto;
+  }
+
+  .footer {
+    height: auto;
+  }
+  .footer .footer__container {
+    flex-flow: row wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
